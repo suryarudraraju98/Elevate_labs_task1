@@ -34,4 +34,4 @@ jobs:
       run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
     - name: Push Docker image to DockerHub
-      run: docker push your-dockerhub-username/nodejs-demo-app:latest
+      run: docker push ${{ SECRETS_DOCKER_USERNAME }}/nodejs-demo-app:latest
