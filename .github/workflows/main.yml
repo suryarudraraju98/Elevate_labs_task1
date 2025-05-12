@@ -25,7 +25,7 @@ jobs:
       run: npm test
 
     - name: Build Docker image
-      run: docker build -t your-dockerhub-username/nodejs-demo-app:latest .
+      run: docker build -t ${{ SECRETS_DOCKER_USERNAME }}/nodejs-demo-app:latest .
 
     - name: Log in to DockerHub
       env:
