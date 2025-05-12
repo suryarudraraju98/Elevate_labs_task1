@@ -1,0 +1,27 @@
+{
+  "name": "elevate_labs_task-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryarudraraju98/Elevate_labs_task1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suryarudraraju98/Elevate_labs_task1/issues"
+  },
+  "homepage": "https://github.com/suryarudraraju98/Elevate_labs_task1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "superset": "^2.0.1"
+  }
+}
